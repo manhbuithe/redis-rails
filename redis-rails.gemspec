@@ -14,6 +14,6 @@ Gem::Specification.new do |s|
 
   s.files = `git ls-files`.split("\n")
 
-  s.add_dependency "redis-activesupport", [">= 3.0", "< 8"]
-  s.add_dependency "redis-actionpack",    [">= 3.0", "< 8"]
+  s.add_dependency "redis-activesupport", [">= 3.0", "< 8.1"]
+  s.add_dependency "redis-actionpack",    [">= 3.0", "< 8.1"]
 end
